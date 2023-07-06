@@ -9,6 +9,7 @@ import { SafePipe } from './pipes/safe.pipe';
 import { CoreModule } from './core/core.module';
 import { ChatComponent } from './components/chat/chat.component';
 import { UsersComponent } from './components/users/users.component';
+import { PersonComponent } from './components/users/person/person.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UsersComponent } from './components/users/users.component';
     TransformDirective,
     SafePipe,
     ChatComponent,
-    UsersComponent
+    UsersComponent,
+    PersonComponent
   ],
   imports: [
     BrowserModule,
