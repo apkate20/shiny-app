@@ -1,1 +1,9 @@
-<p>person works!</p>
+<div class="styled">
+    <p>This is the template for the Person Component</p>
+    <div [@openClose]="isOpen ? 'open' : 'closed'" class="open-closed-container" (click)="toggle()">
+      <p>This box is now {{isOpen ? 'Open' : 'Closed'}}!</p>
+    </div>
+</div>
+
+
+
